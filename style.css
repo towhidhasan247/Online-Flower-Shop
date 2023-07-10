@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.introduction-container {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+}
+
+.text-container {
+    padding-top: 197px;
+    padding-left: 240px;
+    padding-right: 0px;
+    padding-bottom: 147px;
+
+}
+
+#introduction-header {
+    margin-top: 0px;
+    color: #272727;
+    font-size: 80px;
+    line-height: normal;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
