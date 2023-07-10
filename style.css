@@ -6,6 +6,7 @@ body {
 .introduction-container {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
+    margin-bottom: 178px;
 }
 
 .text-container {
@@ -48,4 +49,70 @@ body {
     height: 800px;
     margin-top: 50px;
     margin-right: 100px;
+}
+
+.featured-text{
+    text-align: center;
+}
+.featured-text h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+.featured-text p{
+    margin-top: 0px;
+    margin-bottom: 48px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.featured-image-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#img1{
+    background: url(./images/Rectangle\ 1.png);
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img1 img{
+    width: 310px;
+    height: 428px;
+}
+#img2{
+    background: url(./images/Rectangle\ 2.png);
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img2 img{
+    width: 310px;
+    height: 428px;
+}
+#img3{
+    background: url(./images/Rectangle\ 3.png);
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img3 img{
+    width: 310px;
+    height: 428px;
+}
+
+.rectangle-container h4{
+    text-decoration: underline;
+    text-align: center;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
 }
