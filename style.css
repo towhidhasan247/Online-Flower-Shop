@@ -11,7 +11,7 @@ body {
 
 .text-container {
     padding-top: 197px;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 0px;
     padding-bottom: 147px;
 
@@ -25,7 +25,8 @@ body {
     font-weight: 800;
     margin-bottom: 32px;
 }
-.sub-header{
+
+.sub-header {
     margin-top: 0px;
     margin-bottom: 32px;
     font-size: 18px;
@@ -34,45 +35,49 @@ body {
     color: rgba(39, 39, 39, 0.60)
 }
 
-.shop-button{
-  padding: 20px 43px;
-  background: #E55473;
-  border-radius: 8px;
-  border: 1px solid #E55473;
-  font-size: 20px;
-  font-weight: 700;
-  color: #fff;
+.shop-button {
+    padding: 20px 43px;
+    background: #E55473;
+    border-radius: 8px;
+    border: 1px solid #E55473;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
 }
 
-.image-container{
+.image-container {
     width: 635px;
     height: 800px;
     margin-top: 50px;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
-.featured-text{
+.featured-text {
     text-align: center;
 }
-.featured-text h2{
+
+.featured-text h2 {
     font-size: 40px;
     font-weight: 800;
     color: #272727;
     margin-top: 0px;
     margin-bottom: 32px;
 }
-.featured-text p{
+
+.featured-text p {
     margin-top: 0px;
     margin-bottom: 48px;
     margin-left: 500px;
     margin-right: 500px;
 }
-.featured-image-container{
+
+.featured-image-container {
     display: flex;
     justify-content: space-around;
+    margin: 0px 50px;
 }
 
-#img1{
+#img1 {
     background: url(./images/Rectangle\ 1.png);
     width: 464px;
     height: 538px;
@@ -80,11 +85,13 @@ body {
     justify-content: center;
     align-items: center;
 }
-#img1 img{
+
+#img1 img {
     width: 310px;
     height: 428px;
 }
-#img2{
+
+#img2 {
     background: url(./images/Rectangle\ 2.png);
     width: 464px;
     height: 538px;
@@ -92,11 +99,13 @@ body {
     justify-content: center;
     align-items: center;
 }
-#img2 img{
+
+#img2 img {
     width: 310px;
     height: 428px;
 }
-#img3{
+
+#img3 {
     background: url(./images/Rectangle\ 3.png);
     width: 464px;
     height: 538px;
@@ -104,15 +113,39 @@ body {
     justify-content: center;
     align-items: center;
 }
-#img3 img{
+
+#img3 img {
     width: 310px;
     height: 428px;
 }
 
-.rectangle-container h4{
+.rectangle-container h4 {
     text-decoration: underline;
     text-align: center;
     color: #272727;
     font-size: 24px;
     font-weight: 700;
+}
+
+.speciality {
+    margin-top: 128px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 86px 175px;
+    display: flex;
+    justify-content: space-around;
+}
+.avatar-container img{
+    margin-bottom: 16px;
+}
+
+.avatar-container p{
+    margin: 0px;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
 }
