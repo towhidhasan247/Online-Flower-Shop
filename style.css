@@ -190,9 +190,7 @@ body {
     padding-left: 150px;
 }
 .instagram{
-     margin-top: 128px;
-     margin-left: 50px;
-     margin-right: 50px;
+     margin: 128px 50px;
 }
 .instagram-container{
     text-align: center;
@@ -215,4 +213,43 @@ body {
 .instagram-image{
    display: flex; 
    justify-content: space-around;
+}
+
+.latest-deal{
+    margin: 0 50px;
+    padding: 122px 287px;
+    background: url(images/Rectangle\ 9.png);
+    text-align: center;
+}
+
+.latest-deal h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.latest-deal p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
+.latest-deal input{
+    padding: 22px;
+    width: 550px;
+    border: 1px solid white;
+    border-radius: 8px;
+    outline: none;
+}
+
+.latest-deal button{
+    color: white;
+    background:#E55473;
+    padding: 18px 31px;
+    border-radius: 8px;
+    border: 1px solid #E55473;
+    margin-right: 16px;
 }
