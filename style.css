@@ -212,11 +212,11 @@ body {
 }
 .instagram-image{
    display: flex; 
-   justify-content: space-around;
+   justify-content: space-between;
 }
 
 .latest-deal{
-    margin: 0 50px;
+    margin: 0 50px 128px 50px;
     padding: 122px 287px;
     background: url(images/Rectangle\ 9.png);
     text-align: center;
@@ -252,4 +252,31 @@ body {
     border-radius: 8px;
     border: 1px solid #E55473;
     margin-right: 16px;
+}
+
+footer{
+    background: #111010;
+    text-align: center;
+}
+
+footer h3{
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+    margin-bottom: 24px;
+}
+footer p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+.rights-text{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 128px;
+    margin-bottom: 0;
 }
